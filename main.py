@@ -352,13 +352,14 @@ mont={'01':'January',
       '12':'December'
       }
 
-######################################## GUI FRONT-END ###########################################
+######################################## GUI FRONT-END ############################################262523
 
 window = tk.Tk()
 window.geometry("1280x720")
 window.resizable(True,False)
 window.title("Attendance System")
 window.configure(background='#262523')
+
 
 frame1 = tk.Frame(window, bg="#000000")
 frame1.place(relx=0.11, rely=0.17, relwidth=0.39, relheight=0.80)
@@ -460,9 +461,9 @@ takeImg = tk.Button(frame2, text="Take Images", command=TakeImages  ,fg="white" 
 takeImg.place(x=30, y=300)
 trainImg = tk.Button(frame2, text="Save Profile", command=psw ,fg="white"  ,bg="blue"  ,width=34  ,height=1, activebackground = "white" ,font=('times', 15, ' bold '))
 trainImg.place(x=30, y=380)
-trackImg = tk.Button(frame1, text="Take Attendance", command=TrackImages  ,fg="black"  ,bg="white"  ,width=35  ,height=1, activebackground = "white" ,font=('times', 15, ' bold '))
+trackImg = tk.Button(frame1, text="Take Attendance", command=TrackImages  ,fg="white"  ,bg="Blue"  ,width=35  ,height=1, activebackground = "white" ,font=('times', 15, ' bold '))
 trackImg.place(x=30,y=50)
-quitWindow = tk.Button(frame1, text="Quit", command=window.destroy  ,fg="black"  ,bg="Red"  ,width=35 ,height=1, activebackground = "white" ,font=('times', 15, ' bold '))
+quitWindow = tk.Button(frame1, text="Quit", command=window.destroy  ,fg="white"  ,bg="Blue"  ,width=35 ,height=1, activebackground = "white" ,font=('times', 15, ' bold '))
 quitWindow.place(x=30, y=450)
 
 ##################### END ######################################
